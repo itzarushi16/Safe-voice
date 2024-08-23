@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empowerment Through Anonymous Support</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Empowerment Through Anonymous Support</h1>
+    </header>
+    
+    <main>
+        <section id="submit-story">
+            <h2>Submit Your Story</h2>
+            <form id="story-form">
+                <textarea id="story-content" placeholder="Share your story..." required></textarea><br>
+                <input type="text" id="story-category" placeholder="Category" required><br>
+                <button type="submit">Submit Story</button>
+            </form>
+        </section>
+        
+        <section id="submit-request">
+            <h2>Submit a Support Request</h2>
+            <form id="request-form">
+                <input type="text" id="request-type" placeholder="Type of Request" required><br>
+                <input type="text" id="severity-level" placeholder="Severity Level" required><br>
+                <textarea id="request-content" placeholder="Describe your request..." required></textarea><br>
+                <button type="submit">Submit Request</button>
+            </form>
+        </section>
+        
+        <section id="resources">
+            <h2>Resources</h2>
+            <ul id="resource-list"></ul>
+        </section>
+    </main>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
